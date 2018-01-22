@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PensOfDragons</title>
+    <link href="https://fonts.googleapis.com/css?family=Exo|Exo+2" rel="stylesheet">
+    <link rel="stylesheet" href="Stylesheet.css">
+    <script type=text/javascript src="navbar.js"></script>
+
+</head>
+
+<body>
+    <div class="nav-div">
+        <nav>
+            <img src="Images/navbar.png" class="nav-image">
+            <ul class="nav" id="navbarUnorderedList">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li class="nav-right"><a href="#signup">Sign Up</a></li>
+                <li class="nav-right"><a href="#signin">Sign In</a></li>
+                <li class="dropdown-icon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 main-logo">
+                <img src="Images/logo.png" class="logo">
+            </div>
+            <div class="col-8">
+                <h1 class="title">Pens Of Dragons</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="shop-button">Shop Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <script>
+        function dropdownMenu() {
+            var x = document.getElementById("dropdownClick");
+            if (x.className === "nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav";
+            }
+        }
+
+    </script>
+-->
+</body>
+
+</html>

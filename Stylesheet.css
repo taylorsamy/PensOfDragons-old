@@ -17,65 +17,8 @@ body {
     overflow: hidden;
 }
 
-.row {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.row::after {
-    display: table;
-    clear: both;
-    content: "";
-}
-
-.col-1 {
-    width: 8.33%;
-}
-
-.col-2 {
-    width: 16.66%;
-}
-
-.col-3 {
-    width: 25%;
-}
-
-.col-4 {
-    width: 33.33%;
-}
-
-.col-5 {
-    width: 41.66%;
-}
-
-.col-6 {
-    width: 50%;
-}
-
-.col-7 {
-    width: 58.33%;
-}
-
-.col-8 {
-    width: 66.66%;
-}
-
-.col-9 {
-    width: 75%;
-}
-
-.col-10 {
-    width: 83.33%;
-}
-
-.col-11 {
-    width: 91.66%;
-}
-
-.col-12 {
-    width: 100%;
+.container-fluid {
+    text-align: center;
 }
 
 /*##################### Nav bar ####################*/
@@ -149,14 +92,16 @@ ul.nav li.dropdown-icon {
 
 div.main-logo img {
     display: block;
-    margin-left: 50%;
+    width: 100%;
+    margin-top: 9vw;
 }
 
 h1.title {
     display: block;
-    margin-right: 20%;
+    margin-top: 10vw;
     color: #1C6F19;
-    text-align: center;
+    text-align: left;
+    ;
     font-family: 'Exo 2', sans-serif;
     text-transform: uppercase;
     margin-left: auto;
@@ -166,14 +111,6 @@ h1.title {
 img.logo {
     width: 18vw;
     height: auto;
-}
-
-div.container {
-    width: 100%;
-    margin: auto;
-    padding-top: 4%;
-    padding-bottom: 4%;
-    text-align: center;
 }
 
 .shop-button {
@@ -260,7 +197,13 @@ footer.footer ul li {
 
 /*##################### mobile #####################*/
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 580px) {
+
+    div.main-logo img {
+        display: block;
+        width: 100%;
+        margin-top: 3vw;
+    }
     ul.nav li:not(:nth-child(1)) {
         display: none;
 

@@ -108,10 +108,12 @@ h1.title {
     font-size: 6vw;
 }
 
+/*
 img.logo {
     width: 18vw;
     height: auto;
 }
+*/
 
 .shop-button {
     height: 50px;
@@ -134,6 +136,7 @@ img.logo {
 
 /*#################### Footer ######################*/
 
+/*
 footer {
     position: absolute;
     bottom: 0;
@@ -163,9 +166,11 @@ footer.footer ul li {
     font-size: 20px;
     line-height: 1.5;
 }
+*/
 
 /*##################### >1080p #####################*/
 
+/*
 @media screen and (min-width: 1920px) {
 
     img.nav-image {
@@ -176,8 +181,10 @@ footer.footer ul li {
         height: 50px;
     }
 }
+*/
 
 /*################ Small Screen ####################*/
+/*
 
 @media screen and (max-width: 1280px) {
     img.nav-image {
@@ -193,9 +200,11 @@ footer.footer ul li {
         background-size: auto;
     }
 }
+*/
 
 
 /*##################### mobile #####################*/
+
 
 @media screen and (max-width: 580px) {
 
@@ -204,6 +213,7 @@ footer.footer ul li {
         width: 100%;
         margin-top: 3vw;
     }
+/*
     ul.nav li:not(:nth-child(1)) {
         display: none;
 
@@ -247,5 +257,7 @@ footer.footer ul li {
         width: 50%;
         display: block;
     }
+*/
+
 
 }

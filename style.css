@@ -1,4 +1,15 @@
-.navbar-bg{
-background-color: #1C6F19;
+.navbar-bg {
+    background-color: rgba(28, 111, 25, .75);
 
+}
+
+body,
+html {
+    height: 100%;
+}
+
+
+body.main-page-body {
+    background-color: #232830;
+    background-image: url(Images/background.png);
 }
